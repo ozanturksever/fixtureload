@@ -23,13 +23,13 @@ Example:
 
 ```python
 import fixtureload
-fixtureload.set_source_dir('/fixtures') \# defaults to .
+fixtureload.set_source_dir('/fixtures') # defaults to .
 
 user_list = fixtureload.load('restapi/users/user list')
-\# user_list = [{'username': 'ozan', 'password': 'gizli0'}, {'username': 'okan', 'password': 'gizli2'}]
+# user_list = [{'username': 'ozan', 'password': 'gizli0'}, {'username': 'okan', 'password': 'gizli2'}]
 
 a_user = fixtureload.load('restapi/users/a user')
-\# a_user = {'username': 'ozan', 'password': 'gizli0'}
+# a_user = {'username': 'ozan', 'password': 'gizli0'}
 
 ```
 
