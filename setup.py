@@ -9,5 +9,5 @@ setup(name='fixtureload',
       author='Ozan Turksever',
       author_email='ozan.turksever@gmail.com',
       license='MIT',
-      packages=['fixtureload'],
+      packages=['.'],
       zip_safe=False)
